@@ -1,0 +1,41 @@
+.flex-container  * {
+    display: flex;
+    flex-direction: column;
+}
+#oben div{
+    flex-grow: 1;
+}
+#links div{
+    flex-grow: 2;
+}
+body{
+    background-color: #FF5F00;
+    font-size: 1rem;
+
+}
+#oben{
+    background-color: #ffffee;
+
+}
+#links{
+    background-color: #76B900;
+}
+#mitte{
+    background-color: #376a3e;
+}
+#rechts{
+    background-color: #76B900;
+}
+#unten{
+    background-color: #ffffee;
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        background-color: #0082D1;
+        font-size: 1.2rem;
+
+    }
+}
+
+
